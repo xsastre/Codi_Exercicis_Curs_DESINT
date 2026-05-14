@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Ex4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<queryString><![CDATA[SELECT * FROM ORDERS]]></queryString>
+	<field name="FREIGHT" class="java.math.BigDecimal"/>
+	<detail><band height="20"><textField><reportElement x="0" y="0" width="100" height="20"/><textElement><font isBold="true"/></textElement>
+    <textFieldExpression><![CDATA[$F{FREIGHT}]]></textFieldExpression></textField>
+    <textField><reportElement x="120" y="0" width="200" height="20"><printWhenExpression><![CDATA[$F{FREIGHT}.doubleValue() > 100]]></printWhenExpression></reportElement>
+    <textElement><font color="#FF0000"/></textElement><textFieldExpression><![CDATA["COST ALT!"]]></textFieldExpression></textField></band></detail>
+</jasperReport>

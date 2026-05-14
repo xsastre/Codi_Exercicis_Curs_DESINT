@@ -1,0 +1,1 @@
+Fes un programa en Java que generi un informe prèviament definit amb JasperSoft Studio i el guardi en PDF.
