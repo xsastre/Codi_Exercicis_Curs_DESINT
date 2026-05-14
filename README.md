@@ -1,6 +1,6 @@
-# Codi_Exercicis_Curs_DESINT
+# Codi Exercicis MòdulDESINT
 
-Recopilació de codis i exercicis fets durant el mòdul de Desenvolupament d'Interfícies (DESINT) del cicle de DAM.
+Recopilació de codis i exercicis del mòdul de Desenvolupament d'Interfícies (DESINT) del cicle de DAM.
 
 ## Continguts
 
@@ -8,24 +8,24 @@ Recopilació de codis i exercicis fets durant el mòdul de Desenvolupament d'Int
 
 Aquest repositori conté diversos exercicis i exemples d'ús de JasperReports per a la generació d'informes.
 
-#### Documentació i Exercicis (.md)
-- [Primer informe amb JasperSoft Studio (13/05/2026)](./20260513%20Exercici%20classe%20-%20Primer%20informe%20amb%20JasperSoft%20Studio.md)
-- [Exercici 11 Jasper - Informe complexe amb bd sakila](./Exercici%2011%20Jasper%20-%20Informe%20complexe%20amb%20bd%20sakila.md)
-- [Exercici 12](./Exercici%2012.md) ([Solució](./Exercici%2012%20Solució.md))
+#### Enunciats
+- [Col·lecció completa d'exercicis per Jasper Studio](./Col%C2%B7lecci%C3%B3%20exercicis%20per%20Jasper%20Studio.md)
 
-#### Arxius de disseny (.jrxml)
-- `exercici1.jrxml`
-- `exercici2.jrxml`
+#### Solucions
+- Dins la carpeta `Solucions_Jasper` es poden trobar solucions, indicacions i codi a diversos exercicis. També nclou un `docker-compose.yml` per aixecar entorns de proves. (seguint .devcontainer)
 
-#### Solucions Jasper
-Dins la carpeta `Solucions_Jasper` es poden trobar solucions a diversos exercicis:
-- **Ex10**: Etiquetes.
-- **Ex11**: Informe amb la base de dades Sakila.
-- **Ex3**: Agrupacions.
-- **Ex4**: Condicionals.
-- **Ex7**: Paràmetres.
-- **Docker**: Inclou un `docker-compose.yml` per aixecar entorns de proves.
 
-## Estructura del projecte
-- `/`: Fitxers principals d'exercicis i documentació.
-- `/Solucions_Jasper`: Recull de fitxers `.jrxml` i `.jasper` amb solucions concretes.
+## Entorn de Desenvolupament (Dev Container)
+Aquest repositori inclou una configuració de **Dev Container** per a VS Code que munta automàticament:
+- Un entorn **Java 17** amb Maven.
+- Una base de dades **MariaDB** amb la base de dades de proves **Sakila** ja carregada.
+
+### Com utilitzar-lo:
+1. Obre el projecte amb VS Code.
+2. Si tens instal·lada l'extensió "Dev Containers", t'apareixerà un missatge per "Reopen in Container".
+3. VS Code baixarà les imatges i configurarà la base de dades automàticament.
+4. **Dades de connexió a la BD**:
+   - **Host**: `db` (o `localhost` si connectes des de fora del contenidor pel port 3306)
+   - **User**: `root`
+   - **Password**: `root`
+   - **Database**: `sakila`
