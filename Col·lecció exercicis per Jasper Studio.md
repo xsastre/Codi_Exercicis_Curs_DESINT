@@ -1,5 +1,6 @@
-!!!info **Consell per a l'alumne:**
-Si l'informe genera milers de pàgines (Sakila té molts lloguers), recomana'ls afegir un LIMIT 100 a la consulta SQL mentre estiguin fent proves de disseny.
+> [!TIP]
+> **Consell per a l'alumne:**
+> Si l'informe genera milers de pàgines (Sakila té molts lloguers), recomana'ls afegir un LIMIT 100 a la consulta SQL mentre estiguin fent proves de disseny.
 
 ## Bloc 0: Exercicis bàsics amb Jasper Studio
 
