@@ -7,7 +7,7 @@
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-[![Accessos al repo](https://img.shields.io/github/views/xsastre/Codi_Exercicis_Curs_DESINT?label=Accessos&style=for-the-badge)](https://github.com/xsastre/Codi_Exercicis_Curs_DESINT/graphs/traffic)
+
 
 Recopilació de codis i exercicis del mòdul de Desenvolupament d'Interfícies (DESINT) del cicle de DAM.
 
